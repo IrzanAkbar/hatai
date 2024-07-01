@@ -5,12 +5,12 @@ import "./globals.css";
 
 const inter = Lexend({ subsets: ["latin"] });
 
-let title = "Turbo Seek – AI Search Engine";
+let title = "Hat – AI Search Engine";
 let description =
   "Search smarter and faster with our open source AI search engine";
-let url = "https://turboseek.io/";
-let ogimage = "https://turboseek.io/og-image.png";
-let sitename = "TurboSeek.io";
+let url = "https://hat.baby/";
+let ogimage = "https://hat.baby/og-image.png";
+let sitename = "hat.baby";
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
