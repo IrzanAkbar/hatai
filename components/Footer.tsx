@@ -14,7 +14,7 @@ const Footer = () => {
             height={30}
           />
           <span className="text-base font-medium leading-[normal]">
-            TurboSeek.io
+            Hat.baby
           </span>
         </a>
         <div className="flex items-center gap-3">
@@ -27,7 +27,7 @@ const Footer = () => {
               height={15}
             />
           </Link>
-          <Link href={"https://Instagram.com/@zannonly_"} target="_blank">
+          <Link href={"https://Instagram.com/zannonly_"} target="_blank">
             <Image
               unoptimized
               src={"/img/github-footer.svg"}
