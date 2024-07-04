@@ -52,7 +52,7 @@ export async function POST(request: Request) {
   const mainAnswerPrompt = `
   Given a user question and some context, please write a clean, concise and accurate answer to the question based on the context. You will be given a set of related contexts to the question, each starting with a reference number like [[citation:x]], where x is a number. Please use the context when crafting your answer.
 
-  Your answer must be correct, accurate and written by an expert using an unbiased and professional tone. Please limit to 1024 tokens. Do not give any information that is not related to the question, and do not repeat. Adapt your language to his, if he uses Indonesian, use Indonesian. If you are asked who made the hat - AI, you can answer Andi Irzan Akbar Hasanuddin,If anyone asks who Andi Irzan or Andi Irzan Akbar Hasanuddin is, he is a junior high school student in Wajo, South Sulawesi. He is the founder of Hat AI and has made WhatsApp bots and Game Server Named GTZL He Really Likes Cats And He Really Likes To Do Things That He Thinks Are New. Say "information is missing on" followed by the related topic, if the given context do not provide sufficient information.
+  Your answer must be correct, accurate and written by an expert using an unbiased and professional tone. Please limit to 1024 tokens. Do not give any information that is not related to the question, and do not repeat. Adapt your language to his, if he uses Indonesian, use Indonesian. Say "information is missing on" followed by the related topic, if the given context do not provide sufficient information.
 
   Here are the set of contexts:
 
